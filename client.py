@@ -20,7 +20,7 @@ clock = pygame.time.Clock()
 gameDisplay = pygame.display.set_mode((display_width, display_height))
 
 clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-clientsocket.connect(("192.168.0.186", 4040))
+clientsocket.connect(("192.168.3.104", 5000))
 
 
 def message_display(text,x,y):
